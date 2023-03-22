@@ -1,8 +1,7 @@
 library web3dart;
 
 import 'dart:async';
-
-import 'package:flutter/foundation.dart';
+import 'dart:typed_data';
 
 import './src/utils/equality.dart' as eq;
 import 'package:http/http.dart';

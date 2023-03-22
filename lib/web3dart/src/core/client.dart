@@ -57,7 +57,7 @@ class Web3Client {
       return data.result as T;
       // ignore: avoid_catches_without_on_clauses
     } catch (e) {
-      if (printErrors) debugPrint("$e");
+      if (printErrors) print("$e");
 
       rethrow;
     }
