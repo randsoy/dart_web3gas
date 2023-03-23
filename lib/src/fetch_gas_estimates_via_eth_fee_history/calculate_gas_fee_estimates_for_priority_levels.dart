@@ -26,21 +26,23 @@ class PriorityLevel {
       PriorityLevel(
         baseFeePercentageMultiplier: 1.1,
         priorityFeePercentageMultiplier: 0.94,
-        minSuggestedMaxPriorityFeePerGas: BigInt.from(10).pow(8),
+        minSuggestedMaxPriorityFeePerGas: BigInt.from(10).pow(9),
         minWaitTimeEstimate: 15000,
         maxWaitTimeEstimate: 30000,
       ),
       PriorityLevel(
         baseFeePercentageMultiplier: 1.2,
         priorityFeePercentageMultiplier: 0.97,
-        minSuggestedMaxPriorityFeePerGas: BigInt.from(15).pow(8),
+        minSuggestedMaxPriorityFeePerGas:
+            BigInt.from(10).pow(8) * BigInt.from(15),
         minWaitTimeEstimate: 15000,
         maxWaitTimeEstimate: 45000,
       ),
       PriorityLevel(
         baseFeePercentageMultiplier: 1.25,
         priorityFeePercentageMultiplier: 0.98,
-        minSuggestedMaxPriorityFeePerGas: BigInt.from(20).pow(8),
+        minSuggestedMaxPriorityFeePerGas:
+            BigInt.from(10).pow(9) * BigInt.from(2),
         minWaitTimeEstimate: 15000,
         maxWaitTimeEstimate: 60000,
       ),
