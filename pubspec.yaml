@@ -1,6 +1,6 @@
 name: dart_web3gas
 description: Calculate gas fees based on web3art. Refer to metamask for the calculation method.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/randsoy/dart_web3gas
 
 environment:
