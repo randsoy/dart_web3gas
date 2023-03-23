@@ -1,4 +1,6 @@
-library json_rpc;
+/// Fletch json_rpc_dio package.
+///
+library json_rpc_dio;
 
 import 'dart:async';
 import 'dart:convert';

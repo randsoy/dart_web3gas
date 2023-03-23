@@ -86,7 +86,6 @@ Future<BigInt> fetchEthGasPriceEstimate(Web3Client web3) async {
   return gasPrice;
 }
 
-
 // int fetchLegacyGasPriceEstimates(){
 
 // }

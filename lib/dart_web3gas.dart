@@ -1,3 +1,5 @@
+/// Fletch dart_web3gas package.
+///
 library dart_web3gas;
 
 import 'package:dart_web3gas/src/pri.dart';

@@ -1,3 +1,5 @@
+/// Fletch json_rpc package.
+///
 library json_rpc;
 
 import 'dart:async';

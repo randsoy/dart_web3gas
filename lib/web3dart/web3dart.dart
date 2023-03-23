@@ -1,3 +1,5 @@
+/// Fletch web3dart package.
+///
 library web3dart;
 
 import 'dart:async';

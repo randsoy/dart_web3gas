@@ -8,7 +8,7 @@ class FeeHistory {
     this.reward,
   );
 
-  /// The oldest [Block] number.
+  /// The oldest Block number.
   final BigInt oldestBlock;
 
   /// Base fee per gas.
